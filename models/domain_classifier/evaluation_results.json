@@ -1,0 +1,23 @@
+{
+  "Experiment A: TF-IDF + Logistic Regression": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "macro_f1": 1.0,
+    "weighted_f1": 1.0
+  },
+  "Experiment C: RoBERTa (Truncated First 256 Tokens)": {
+    "accuracy": 0.9659,
+    "precision": 0.9717,
+    "recall": 0.9659,
+    "macro_f1": 0.9636,
+    "weighted_f1": 0.9636
+  },
+  "Experiment D: RoBERTa (Section/Chunk Aggregation)": {
+    "accuracy": 0.9773,
+    "precision": 0.9818,
+    "recall": 0.9773,
+    "macro_f1": 0.9778,
+    "weighted_f1": 0.9778
+  }
+}

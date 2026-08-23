@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "domains": [
+    {
+      "id": "employment",
+      "name": "Employment",
+      "description": "Employment contracts, offer letters, executive agreements, non-competes, and work-for-hire agreements.",
+      "keywords": ["employee", "employer", "salary", "compensation", "duties", "termination", "benefits", "probation"]
+    },
+    {
+      "id": "nda",
+      "name": "NDA / Confidentiality",
+      "description": "Non-disclosure agreements, mutual confidentiality agreements, and secrecy obligations.",
+      "keywords": ["confidential information", "disclosing party", "receiving party", "non-disclosure", "proprietary information", "trade secrets"]
+    },
+    {
+      "id": "vendor",
+      "name": "Vendor / Supplier",
+      "description": "Supplier agreements, procurement contracts, purchase orders, and supply agreements.",
+      "keywords": ["supplier", "vendor", "deliverables", "purchase order", "inspection", "shipment", "inventory", "defects"]
+    },
+    {
+      "id": "service_agreement",
+      "name": "Service Agreement",
+      "description": "Master service agreements (MSA), statement of work (SOW), and professional service contracts.",
+      "keywords": ["service provider", "client", "statement of work", "scope of services", "deliverables", "fees", "service levels"]
+    },
+    {
+      "id": "software_it",
+      "name": "Software / IT",
+      "description": "Software license agreements, SaaS terms, IT infrastructure services, and source code agreements.",
+      "keywords": ["software", "license", "saas", "intellectual property", "source code", "updates", "api", "maintenance", "hosting"]
+    },
+    {
+      "id": "lease_rental",
+      "name": "Lease / Rental",
+      "description": "Commercial property leases, residential rent agreements, equipment lease, and sub-lease contracts.",
+      "keywords": ["lessor", "lessee", "premises", "rent", "lease term", "security deposit", "maintenance", "eviction", "property"]
+    },
+    {
+      "id": "construction",
+      "name": "Construction",
+      "description": "Construction contracts, architectural services, contractor agreements, and building project terms.",
+      "keywords": ["contractor", "subcontractor", "owner", "construction", "specifications", "site", "architect", "completion date", "permits"]
+    },
+    {
+      "id": "partnership",
+      "name": "Partnership",
+      "description": "Joint venture agreements, partnership deeds, strategic alliance contracts, and profit sharing.",
+      "keywords": ["partners", "partnership", "joint venture", "capital contribution", "profit distribution", "management", "dissolution"]
+    },
+    {
+      "id": "loan_financial",
+      "name": "Loan / Financial",
+      "description": "Loan agreements, credit facilities, promissory notes, mortgages, and security agreements.",
+      "keywords": ["borrower", "lender", "principal", "interest rate", "repayment", "default", "collateral", "maturity date", "loan"]
+    },
+    {
+      "id": "general_commercial",
+      "name": "General Commercial",
+      "description": "Distribution agreements, agency contracts, franchise agreements, and sales contracts.",
+      "keywords": ["distributor", "agent", "principal", "territory", "sales", "commercial", "royalty", "franchise", "reseller"]
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "description": "Miscellaneous legal contracts, waivers, settlement agreements, or unrecognized contract types.",
+      "keywords": ["settlement", "release", "waiver", "indemnity", "miscellaneous", "governing law", "jurisdiction"]
+    }
+  ]
+}
