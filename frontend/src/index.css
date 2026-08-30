@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: #2D2A3D;
+    background-color: #FAF7FF;
+  }
+}
+
+@keyframes pulseBar {
+  0% {
+    width: 0%;
+    margin-left: 0%;
+  }
+  50% {
+    width: 75%;
+    margin-left: 15%;
+  }
+  100% {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+.animate-pulse-bar {
+  animation: pulseBar 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-left {
+  animation: slideLeft 0.25s ease-out forwards;
+}
+
+/* Custom scrollbar for pastel theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF7FF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E8DFF5;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A5B4FC;
+}
